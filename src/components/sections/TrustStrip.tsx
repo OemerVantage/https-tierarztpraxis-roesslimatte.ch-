@@ -42,6 +42,15 @@ export function TrustStrip() {
     return (
         <section className="bg-white py-8 md:py-12">
             <div className="container-custom">
+                <div className="text-center max-w-3xl mx-auto mb-10 md:mb-12">
+                    <h2 className="font-heading text-2xl font-bold text-secondary-500 md:text-3xl mb-3">
+                        Ganzheitliche Tiermedizin in Aarberg
+                    </h2>
+                    <p className="text-lg text-gray-600">
+                        Wir sind für Sie und Ihre Tiere da – mit Herz, Verstand und moderner Ausstattung.
+                    </p>
+                </div>
+
                 <motion.div
                     variants={container}
                     initial="hidden"
